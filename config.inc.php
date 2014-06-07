@@ -20,7 +20,9 @@ $cfg['Servers'][$i]['nopassword'] = true;
 $cfg['Servers'][$i]['auth_type'] = 'config';
 $cfg['Servers'][$i]['user'] = 'root';
 $cfg['Servers'][$i]['password'] = '';
-$cfg['Servers'][$i]['CountTables'] = true;
+$cfg['Servers'][$i]['AllowNoPassword'] = true;
+$cfg['Servers'][$i]['CountTables'] = false;
+/*
 $cfg['Servers'][$i]['pmadb'] = 'phpmyadmin';
 $cfg['Servers'][$i]['controluser'] = 'pma';
 $cfg['Servers'][$i]['controlpass'] = 'pmapass';
@@ -37,7 +39,7 @@ $cfg['Servers'][$i]['tracking'] = 'pma_tracking';
 $cfg['Servers'][$i]['table_coords'] = 'pma_table_coords';
 $cfg['Servers'][$i]['pdf_pages'] = 'pma_pdf_pages';
 $cfg['Servers'][$i]['designer_coords'] = 'pma_designer_coords';
-$cfg['Servers'][$i]['AllowNoPassword'] = true;
+*/
 
 /* Server: host [3] */
 $i++;
